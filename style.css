@@ -99,8 +99,11 @@ section::before {
   gap: 16px;
 }
 
-.work-img {
+.work-img img {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .work-img-item {
@@ -112,6 +115,7 @@ section::before {
   width: 100%;
   height: 100%;
   position: absolute;
+
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
@@ -179,4 +183,7 @@ section::before {
     align-items: center;
     justify-content: center;
   }
+}
+
+@media only screen and (max-width: 1200px) {
 }
